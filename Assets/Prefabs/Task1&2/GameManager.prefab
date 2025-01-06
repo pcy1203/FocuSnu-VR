@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5026153213190174395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2714077380158999607}
+  - component: {fileID: 2240287285899747997}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2714077380158999607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5026153213190174395}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.269817, y: -63.6673, z: 46.202496}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2240287285899747997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5026153213190174395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291c073d733677c4c848e14b301f42d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardPrefab: {fileID: 942409354653470379, guid: 31037f560255f254db0c99782e742778, type: 3}
+  cardFrontMaterials:
+  - {fileID: 2100000, guid: 4ae1a2f8c6904494b8d7c8d9aa83f17c, type: 2}
+  - {fileID: 2100000, guid: 0b28be05caee0a240b0520436ab8c7d4, type: 2}
+  - {fileID: 2100000, guid: 57e530c28b1822b439c430313aa02789, type: 2}
+  - {fileID: 2100000, guid: b8b112abba8ff1b48a8e651c1121e463, type: 2}
+  - {fileID: 2100000, guid: d8419294de38f434a8eb49f127a8500d, type: 2}
+  - {fileID: 2100000, guid: b295ae0d873f09f4ab2a668378624f82, type: 2}
+  - {fileID: 2100000, guid: 134342a8a59c15d439284dbabe551bb5, type: 2}
+  - {fileID: 2100000, guid: db7a48021ada7e4468b20456f6096bbd, type: 2}
+  cardBackMaterial: {fileID: 2100000, guid: 047498403666bd24d95660e18bad4c52, type: 2}
+  gridParent: {fileID: 0}
+  gridSize: {x: 4, y: 4}
+  spacing: 0.3
+  scoreText: {fileID: 0}
+  timerText: {fileID: 0}
+  score: 0
+  timeLimit: 300
