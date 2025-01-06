@@ -20,7 +20,7 @@
 # 🌟 2. Team Members (팀원 소개)
 | 류명현 | 박찬영 | 정용환 |
 |:------:|:------:|:------:|
-| VR Programmer | VR Programmer | VR Programmer |
+| VR Programming | VR Programming | VR Programming |
 |과제 5 (탁구공 튀기기) 구현<br/>방해 요소 구현<br/>최종 빌드 및 시연|과제 3 (그림 순서 배열하기) 구현<br/>과제 4 (장애물 피하기) 구현<br/>점수 기록, 메인화면 구현<br/>보고서 작성 및 발표|과제 1 (같은 카드 뒤집기) 구현<br/>과제 2 (물건 위치 기억하기) 구현<br/>UI 상호작용 구현<br />최종 코드 수정(통합)|
 <br/>
 <br/>
@@ -134,7 +134,7 @@
 
 
 # 🌟 6. Technology Stack (기술 스택)
-## 6.1 Programming & Modeling
+## 6.1 Programming
 | Language/Tool | Version |
 |:-------:|:-------:|
 | ![js](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) | |
@@ -151,7 +151,7 @@
 <br/>
 
 ## 6.3 Packages
-- Packages/manifest.json에서 보다 자세히 확인 가능
+- Packages/manifest.json에서 자세히 확인
   
 | Package | Version |
 |:---:|:---:|
